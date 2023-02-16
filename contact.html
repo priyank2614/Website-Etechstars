@@ -1,97 +1,121 @@
 <!DOCTYPE html>
 
 <html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
 
-<head>
-    <meta charset="UTF-8">
-
-    <link rel="stylesheet" href="./css/contact.css">
-    <link rel="stylesheet" href="./css/nav.css">
+    <link rel="stylesheet" href="./css/contact.css" />
+    <link rel="stylesheet" href="./css/nav.css" />
+    <link rel="stylesheet" href="./css/style.css" />
     <!-- Fontawesome CDN Link -->
     <!-- ICONSCOUT CDN -->
-    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v2.1.6/css/unicons.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-</head>
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v2.1.6/css/unicons.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/c198b85cdc.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
 
-<body>
-
-
-
-
-
-
-
-
-
-
-
-
+  <body>
     <nav>
-        <div class="container nav__container">
-            <a href="index.html">
-                <h4>ETECHSTARS.</h4>
-            </a>
-            <ul class="nav__menu">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
+      <div class="container nav__container">
+        <a href="index.html">
+          <h4>ETECHSTARS.</h4>
+        </a>
+        <ul class="nav__menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
 
-            <button id="open-menu-btn"><i class="uil uil-bars"></i></button>
-            <button id="close-menu-btn"><i class="uil uil-multiply"></i></button>
-
-
-        </div>
+        <button id="open-menu-btn"><i class="uil uil-bars"></i></button>
+        <button id="close-menu-btn"><i class="uil uil-multiply"></i></button>
+      </div>
     </nav>
-
-
-
-
-
-    <div class="container container_contact">
+    <section id="contact">
+      <div class="container container_contact">
         <div class="content">
-            <div class="left-side">
-                <div class="address details">
-                    <i class="fas fa-map-marker-alt"></i>
-                    <div class="topic">Address</div>
-                    <div class="text-one"></div>
-                    <div class="text-two">Bangalore,India</div>
-                </div>
-                <div class="phone details">
-                    <i class="fas fa-phone-alt"></i>
-                    <div class="topic">Phone</div>
-                    <div class="text-one">+0098 9893 5647</div>
-                    <div class="text-two">+0096 3434 5678</div>
-                </div>
-                <div class="email details">
-                    <i class="fas fa-envelope"></i>
-                    <div class="topic">Email</div>
-                    <div class="text-one">support@etechstars.com</div>
-                    <!-- <div class="text-two"> </div> -->
-                </div>
+          <div class="left-side">
+            <div class="address details">
+              <i class="fas fa-map-marker-alt"></i>
+              <div class="topic">Address</div>
+              <div class="text-one"></div>
+              <div class="text-two">Bangalore,India</div>
             </div>
-            <div class="right-side">
-                <div class="topic-text">Send us a message</div>
-                <form action="https://formspree.io/f/xlekgzgr" method="POST">
-                    <div class="input-box">
-                        <input type="text" placeholder="Enter your name">
-                    </div>
-                    <div class="input-box">
-                        <input type="text" placeholder="Enter your email">
-                    </div>
-                    <div class="input-box message-box">
-                        <input type="text" placeholder="Enter your email">
-                    </div>
-                    <div class="button">
-                        <input type="submit" value="Send Now">
-                    </div>
-                </form>
+            <div class="phone details">
+              <i class="fas fa-phone-alt"></i>
+              <div class="topic">Phone</div>
+              <div class="text-one">+0098 9893 5647</div>
+              <div class="text-two">+0096 3434 5678</div>
             </div>
+            <div class="email details">
+              <i class="fas fa-envelope"></i>
+              <div class="topic">Email</div>
+              <div class="text-one">support@etechstars.com</div>
+              <!-- <div class="text-two"> </div> -->
+            </div>
+          </div>
+          <div class="right-side">
+            <div class="topic-text">Send us a message</div>
+            <form action="https://formspree.io/f/xlekgzgr" method="POST">
+              <div class="input-box">
+                <input type="text" placeholder="Enter your name" />
+              </div>
+              <div class="input-box">
+                <input type="text" placeholder="Enter your email" />
+              </div>
+              <div class="input-box message-box">
+                <input type="text" placeholder="Enter your email" />
+              </div>
+              <div class="button">
+                <input type="submit" value="Send Now" />
+              </div>
+            </form>
+          </div>
         </div>
-    </div>
+      </div>
+    </section>
 
-</body>
-<script src="main.js"></script>
+    <!-- footer -->
+    <section id="footer">
+      <footer>
+        <img
+          class="logo-img"
+          src=".\images\ETechStarsColored.png"
+          alt="logo-img"
+          width="30"
+          height="24"
+        />
+        <p>Commute Smarter AI Controlled Vehicles.</p>
+        <div class="social-icons">
+          <i class="fa-brands fa-linkedin fa-sm"></i>
+          <i class="fa-brands fa-twitter fa-sm"></i>
+          <i class="fa-brands fa-instagram fa-sm"></i>
+          <i class="fa-brands fa-youtube fa-sm"></i>
+        </div>
 
+        <div class="footer_links">
+          <p><a href="">About</a></p>
+          <p><a href="">Blog</a></p>
+          <p><a href="">FAQS</a></p>
+          <p><a href="">Privacy Policy</a></p>
+          <p><a href="">Terms of use</a></p>
+          <p><a href="">Jobs</a></p>
+        </div>
+        <hr />
+        <p class="copyright">
+          Copyright &copy;2023 EtechStars Pvt. Ltd.. All Rights Reserved.
+        </p>
+      </footer>
+    </section>
+  </body>
+  <script src="main.js"></script>
 </html>
