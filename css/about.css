@@ -1,0 +1,58 @@
+
+/* About Section start */
+#about {
+  background: var(--color-bg1);
+}
+#about .col {
+  float: left;
+  width: 50.1%;
+}
+#about .row {
+  content: "";
+  display: table;
+  clear: both;
+  padding: 30px 130px;
+}
+.about-img {
+  width: 100%;
+  height: auto;
+}
+#about .col h2 {
+  margin-bottom: 15px;
+}
+#about p {
+  text-align: justify;
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 1.5;
+  line-height: 1.7;
+  font-weight: 400;
+  font-size: 16px;
+}
+/* About Section End */
+
+@media screen and (max-width: 1024px) {
+  #about .col {
+    width: 100%;
+    padding: 0 30px;
+  }
+  #about .row {
+    padding: 30px 20px;
+  }
+}
+@media screen and (max-width: 600px) {
+  #about .col {
+    width: 100%;
+    padding: 0 30px;
+  }
+  #about .row {
+    padding: 30px 20px;
+  }
+  .about-img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+
+
+
